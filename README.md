@@ -1,3 +1,5 @@
+Needs haarcascade_frontalface_default.xml placed in root directory of project
+
 Before running create ach channel:
 	make -f makechan chan
 
