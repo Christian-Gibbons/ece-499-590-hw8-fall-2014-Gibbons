@@ -1,0 +1,7 @@
+CV_REF_CHAN='cv-ref-chan'
+
+chan:
+	ach -1 -C $(CV_REF_CHAN) -m 30 -n 3000000
+	sudo chmod 777 /dev/shm/achshm-*
+clean:
+	sudo rm -r /dev/shm/achshm*
