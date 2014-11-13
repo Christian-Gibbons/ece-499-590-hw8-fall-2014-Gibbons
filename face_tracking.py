@@ -30,7 +30,7 @@ cvPID = cvti.CV_REF()
 (cvPID.setX,cvPID.setY) = center_screen
 
 cap = cv2.VideoCapture(0)
-faceCascade = cv2.CascadeClassifier('/home/student/Documents/test/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 while True:
 	# Get Frame
